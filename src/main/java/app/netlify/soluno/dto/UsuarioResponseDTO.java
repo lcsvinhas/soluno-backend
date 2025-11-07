@@ -9,9 +9,6 @@ public record UsuarioResponseDTO(
         Long id,
         String nome,
         String sobrenome,
-        String email,
-        String telefone,
-        String senha,
         List<Receita> receitas,
         List<Despesa> despesas
 ) {
